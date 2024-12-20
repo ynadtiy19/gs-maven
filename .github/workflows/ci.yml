@@ -3,11 +3,12 @@ name: Java CI with Maven
 on:
   push:
     branches:
-      - master
+      - main  # 使用 main 分支
   pull_request:
     branches:
-      - master
+      - main  # 使用 main 分支
 
+      
 jobs:
   build:
     runs-on: ubuntu-latest
